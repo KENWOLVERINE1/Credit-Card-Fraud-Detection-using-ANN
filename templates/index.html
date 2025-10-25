@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANN Model</title>
+    <style>
+        body{background-color: black;
+        color: white;}
+        h1{text-align: center;}
+    </style>
+</head>
+<body>
+    <h1 class="heading">Credit Card Fraud Detection</h1>
+    <br>
+    <hr>
+    <br>
+    <p id="print1">{{head}}</p>
+    <p id="print2">{{describe}}</p>
+    <p id="print3">{{fraudtxn}}</p>
+    <p id="print4">{{normaltxn}}</p>
+    <p id="print5">{{fraudwg}}</p>
+    <p id="print6">{{normalwg}}</p>
+    <p id="print7">{{trainx}}</p>
+    <p id="print8">{{testx}}</p>
+    <p id="print9">{{validx}}</p>
+    <p id="print10">{{mscore}}</p>
+    <p id="print11">{{trsscore}}</p>
+    <p id="print12">{{tesscore}}</p>
+
+        {% if processed_text %}
+<p id="text">{{ processed_text }}</p>
+{% endif %}
+<hr>
+    
+    
+</body>
+</html>

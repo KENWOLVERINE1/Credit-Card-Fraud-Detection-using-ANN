@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1{text-align: center;}
+        footer{text-align: center;}
+        #btn{border: none;
+        height: 50px;
+    width: 150px;
+border-radius: 5px;
+background-color: gray;
+color: white;
+}
+    </style>
+    <title>ANN Model</title>
+</head>
+<body>
+    <h1 id="h1">Major Project - Credit Card Fraud Detection</h1>
+    <hr>
+    <h2 id="h2">Description</h2>
+    <p id="desc">Credit card fraud is when someone uses another person's credit card or account information to make unauthorized purchases or access funds through cash advances.
+         Credit card fraud doesn’t just happen online; it happens in brick-and-mortar stores, too. 
+        As a business owner, you can avoid serious headaches – and unwanted publicity – by recognizing potentially fraudulent use of credit cards in your payment environment.</p>
+      <br>
+      <hr>
+      <br>
+        <h2 id="h2">Challenges</h2>
+        <p id="desc2">The challenge is to recognize fraudulent credit card transactions so that the customers of credit card companies are not charged for items that they did not purchase.</p>
+        <p id="desc3"><b>Main challenges involved in credit card fraud detection are:</b><br>
+            Enormous Data is processed every day and the model build must be fast enough to respond to the scam in time.
+             Imbalanced Data i.e most of the transactions (99.8%) are not fraudulent which makes it really hard for detecting the fraudulent ones.
+              Data availability as the data is mostly private. Misclassified Data can be another major issue, as not every fraudulent transaction is caught and reported.
+               Adaptive techniques used against the model by the scammers. The model used must be simple and fast enough to detect the anomaly and classify it as a fraudulent transaction as quickly as possible. 
+               We can make the model simple and interpretable so that when the scammer adapts to it with just some changes we can have a new model up and running to deploy.</p>
+               <br>
+               <hr>
+               <br>
+               <h2 id="h2">Modules</h2>
+               <p id="desc4">
+                <ul>
+                    <li>Collection of Dataset</li>
+                    <li>Checking the Dataset for empty values and Noisy or unwanted data</li>
+                    <li>Splitting the data into Training data and Test data</li>
+                    <li>Training the models and choosing the model with highest accuracy raio</li>
+                    <li>Printing the predicted values with accuracy ratio</li>
+                </ul>
+               </p>
+               <br>
+               <hr>
+               <br>
+               <h2 id="h2">Observations</h2>
+               <p id="desc5">Very few transactions are actually fraudulent (less than 1%). The data set is highly skewed, consisting of 492 frauds in a total of 284,807 observations. This resulted in only 0.172% fraud cases. This skewed set is justified by the low number of fraudulent transactions.
+                The dataset consists of numerical values from the 28 ‘Principal Component Analysis (PCA)’ transformed features, namely V1 to V28 And my predictions is based on two values namely time and amount. 
+                There is no missing value in the dataset.</p>
+                <br>
+                <hr>
+                <br>
+                <h2 id="work">Access my Work By Clicking The Button Below</h2>
+                <form action="/predict" method="GET">
+                <button type="submit" id="btn"><b>Access My Work</b></button>
+                </form>
+                <br>
+                <hr>
+</body>
+<footer>This Project Was Done By - Sanjay K (20MSS040)</footer>
+</html>
